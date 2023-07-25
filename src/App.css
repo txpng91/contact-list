@@ -1,0 +1,74 @@
+table {
+  background-color: #cbd8f9;
+  margin: 10px auto;
+  width: 75%;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.267);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  padding: 10px;
+}
+
+.contact-item:hover {
+  border: solid 1px rgb(35, 59, 103);
+  box-shadow: 1px 1px 3px rgb(35, 59, 103);
+  border-radius: 5px;
+}
+
+table td {
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-details {
+  width: 65%;
+  margin: 50px auto;
+  background-color: #cbd8f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.267);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  padding: 10px;
+}
+
+.flex-details {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.contact-details h2 {
+  text-align: center;
+}
+
+.contact-basics {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 0 12px;
+}
+
+.contact-basics p {
+  padding: 0 10px;
+}
+
+.contact-address p,
+.contact-company p {
+  line-height: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  table {
+    width: 95%;
+  }
+  .contact-details {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+  .contact-basics p {
+    padding: 0 3px;
+  }
+}
